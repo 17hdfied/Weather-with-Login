@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563CF6A92000ACF4008A3E23 /* SignINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CF6A82000ACF4008A3E23 /* SignINVC.swift */; };
 		5682A7D2200099A400FA5F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682A7D1200099A400FA5F29 /* AppDelegate.swift */; };
 		5682A7D4200099A400FA5F29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682A7D3200099A400FA5F29 /* ViewController.swift */; };
 		5682A7D7200099A400FA5F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5682A7D5200099A400FA5F29 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		563CF6A82000ACF4008A3E23 /* SignINVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignINVC.swift; sourceTree = "<group>"; };
 		5682A7CE200099A400FA5F29 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5682A7D1200099A400FA5F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5682A7D3200099A400FA5F29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563CF6A52000ACAA008A3E23 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				563CF6A82000ACF4008A3E23 /* SignINVC.swift */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
 		5682A7C5200099A300FA5F29 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		5682A7D0200099A400FA5F29 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				563CF6A52000ACAA008A3E23 /* Sign In */,
 				5682A7D1200099A400FA5F29 /* AppDelegate.swift */,
 				5682A7D3200099A400FA5F29 /* ViewController.swift */,
 				5682A7D5200099A400FA5F29 /* Main.storyboard */,
@@ -138,6 +149,7 @@
 			files = (
 				5682A7D4200099A400FA5F29 /* ViewController.swift in Sources */,
 				5682A7D2200099A400FA5F29 /* AppDelegate.swift in Sources */,
+				563CF6A92000ACF4008A3E23 /* SignINVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
